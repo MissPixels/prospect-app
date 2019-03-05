@@ -1,0 +1,3 @@
+User-agent: *
+<% if (options.env !== 'production') { %>Disallow: /<% } %>
+<% if (options.env === 'production') { %>Allow: /<% } %>

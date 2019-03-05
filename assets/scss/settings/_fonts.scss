@@ -1,0 +1,9 @@
+$font-name: 'IBM Plex Sans';
+$font-medium: 500 1em $font-name, sans-serif;
+$font-bold: 700 1em $font-name, sans-serif;
+$font-medium-italic: italic 500 1em $font-name, sans-serif;
+$font-bold-italic: italic 700 1em $font-name, sans-serif;
+
+@function font-path($font, $type) {
+  @return '~assets/fonts/IBM_Plex_Serif/' + $type + '/IBMPlexSerif-' + $font + '.' + $type;
+}

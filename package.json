@@ -12,7 +12,9 @@
     "eslint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "stylelint": "stylelint **/*.scss **/*.vue",
     "lint:fix": "yarn eslint --fix && yarn stylelint --fix",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
@@ -28,13 +30,14 @@
     "fullpage.js": "2.9.7",
     "imagesloaded": "^4.1.4",
     "intersection-observer": "^0.5.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "mobile-detect": "^1.4.3",
     "nuxt-start": "^2.4.5",
     "seamless-scroll-polyfill": "^0.5.3",
     "viewport-units-buggyfill": "^0.6.2",
     "vue-observe-visibility": "^0.4.3",
-    "vue-window-size": "^0.2.3"
+    "vue-window-size": "^0.2.3",
+    "snyk": "^1.165.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -53,5 +56,6 @@
     "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-scss": "^3.5.4"
-  }
+  },
+  "snyk": true
 }

@@ -37,7 +37,7 @@
     "viewport-units-buggyfill": "^0.6.2",
     "vue-observe-visibility": "^0.4.3",
     "vue-window-size": "^0.2.3",
-    "snyk": "^1.165.0"
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

@@ -30,7 +30,7 @@
     "fullpage.js": "2.9.7",
     "imagesloaded": "^4.1.4",
     "intersection-observer": "^0.5.1",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "mobile-detect": "^1.4.3",
     "nuxt-start": "^2.4.5",
     "seamless-scroll-polyfill": "^0.5.3",

@@ -3859,12 +3859,10 @@ fstream@^1.0.0, fstream@^1.0.2:
     mkdirp ">=0.5 0"
     rimraf "2"
 
-fullpage.js@2.9.7:
-  version "2.9.7"
-  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-2.9.7.tgz#65b838a76a9cc459e6474d36ba54fd18aba52f3d"
-  integrity sha512-r2a7h/xAFRningddSAP/xZtZxG3dxvmAc71ckommFsHF/EAPu5gw1CU4DRc2ErRg10lLX1gBoybISpa5F3ps5A==
-  dependencies:
-    jquery ">=1.6.0"
+fullpage.js@4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-4.0.5.tgz#033880e792610a28fe4f7c9ee49eff33a7b38e14"
+  integrity sha512-4OWRP08ogL35LwnNyDa8LNqRD0003HdolcVflfUyhMwAHVrpBNY9u1WYdAfnFEX7bd4vsermL7z22nmNqPWZvw==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -4804,10 +4802,10 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-jquery@>=1.6.0, jquery@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
+jquery@^3.4.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
 js-base64@^2.1.8:
   version "2.5.1"
@@ -7815,6 +7813,11 @@ snapdragon@^0.8.1:
     source-map "^0.5.6"
     source-map-resolve "^0.5.0"
     use "^3.1.0"
+
+snyk@^1.165.0:
+  version "1.906.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.906.0.tgz#5a282e317587a03a06ac3952ff3326ac40d06047"
+  integrity sha512-BqHGSWBVx7LuiM9BuPE2zXRCQyAN7wJch4IEm0LFibZcLaoJ+4QWcn6X2ZynRzMCX7UJOntQUQj3q7lTmSaiug==
 
 sort-keys@^2.0.0:
   version "2.0.0"

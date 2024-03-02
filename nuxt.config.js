@@ -1,5 +1,6 @@
 require('dotenv').config()
 const axios = require('axios')
+const sass = require('sass')
 const pkg = require('./package')
 
 const isProd = process.env.NODE_ENV === 'production'
@@ -132,6 +133,11 @@ module.exports = {
    * Build configuration
    */
   build: {
+    loaders: {
+        scss: {
+            implementation: sass,
+	}
+    },
     templates: [
       {
         src: './templates/robots.txt',

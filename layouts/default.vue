@@ -89,7 +89,7 @@ main {
 .content {
   grid-area: content;
 
-  /deep/ img {
+  ::v-deep img {
     max-height: 90vh;
   }
 }

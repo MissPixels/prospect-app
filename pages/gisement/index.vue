@@ -135,7 +135,7 @@ export default {
     flex-direction: column;
     justify-content: center;
 
-    /deep/ img {
+    ::v-deep img {
       max-height: 85vh;
     }
 
@@ -160,7 +160,7 @@ export default {
       height: auto;
       margin: $spacer;
 
-      /deep/ .poem {
+      ::v-deep .poem {
         position: relative;
       }
 
@@ -169,7 +169,7 @@ export default {
         float: left;
         max-width: 100%;
 
-        /deep/ .verse {
+        ::v-deep .verse {
           position: absolute;
           left: 0;
 
@@ -181,7 +181,7 @@ export default {
         &:nth-child(odd) {
           float: right;
 
-          /deep/ .verse {
+          ::v-deep .verse {
             left: initial;
             right: 0;
           }

@@ -63,7 +63,7 @@ export default {
   text-align: center;
   overflow: overlay;
 
-  /deep/ .letter {
+  ::v-deep .letter {
     opacity: 0;
     display: inline-block;
   }

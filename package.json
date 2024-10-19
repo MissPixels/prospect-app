@@ -32,12 +32,12 @@
     "intersection-observer": "^0.5.1",
     "jquery": "^3.4.0",
     "mobile-detect": "^1.4.3",
-    "nuxt-start": "^2.4.5",
+    "nuxt-start": "^2.15.0",
     "seamless-scroll-polyfill": "^0.5.3",
     "snyk": "^1.165.0",
     "viewport-units-buggyfill": "^0.6.2",
     "vue-observe-visibility": "^0.4.3",
-    "vue-window-size": "^0.2.3"
+    "vue-window-size": "^0.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
